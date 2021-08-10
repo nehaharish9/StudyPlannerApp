@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpapercgpa"
+    tools:context=".SGPACalculator">
+
+    <EditText
+        android:id="@+id/s7c"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Credits"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/s7s"
+        app:layout_constraintTop_toBottomOf="@+id/s6c" />
+
+    <EditText
+        android:id="@+id/s8c"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Credits"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s8s"
+        app:layout_constraintTop_toBottomOf="@+id/s7c" />
+
+    <EditText
+        android:id="@+id/s6c"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Credits"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s6s"
+        app:layout_constraintTop_toBottomOf="@+id/s5c" />
+
+    <EditText
+        android:id="@+id/s5c"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Credits"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s5s"
+        app:layout_constraintTop_toBottomOf="@+id/s4c" />
+
+    <EditText
+        android:id="@+id/s4c"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Credits"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s4s"
+        app:layout_constraintTop_toBottomOf="@+id/s3c" />
+
+    <EditText
+        android:id="@+id/s1c"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Enter Credits"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s1s"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/s8s"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter SGPA"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/s8"
+        app:layout_constraintTop_toBottomOf="@+id/s7s" />
+
+    <EditText
+        android:id="@+id/s7s"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter SGPA"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/s7"
+        app:layout_constraintTop_toBottomOf="@+id/s6s" />
+
+    <EditText
+        android:id="@+id/s6s"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter SGPA"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/s6"
+        app:layout_constraintTop_toBottomOf="@+id/s5s" />
+
+    <EditText
+        android:id="@+id/s5s"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter SGPA"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/s5"
+        app:layout_constraintTop_toBottomOf="@+id/s4s" />
+
+    <EditText
+        android:id="@+id/s4s"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter SGPA"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/s4"
+        app:layout_constraintTop_toBottomOf="@+id/s3s" />
+
+    <EditText
+        android:id="@+id/s3s"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter SGPA"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/s3"
+        app:layout_constraintTop_toBottomOf="@+id/s2s" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="48dp"
+        android:text="Semester 1"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/s7"
+        android:layout_width="77dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Semester 7"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s6" />
+
+    <TextView
+        android:id="@+id/s5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Semester 5"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s4" />
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Semester 4"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s3" />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Semester 3"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s2" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Semester 2"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s1" />
+
+    <TextView
+        android:id="@+id/s6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Semester 6"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s5" />
+
+    <TextView
+        android:id="@+id/s8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Semester 8"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s7" />
+
+    <EditText
+        android:id="@+id/s1s"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Enter SGPA"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/s1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/s2s"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter SGPA"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/s2"
+        app:layout_constraintTop_toBottomOf="@+id/s1s" />
+
+    <EditText
+        android:id="@+id/s3c"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Credits"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s3s"
+        app:layout_constraintTop_toBottomOf="@+id/s2c" />
+
+    <EditText
+        android:id="@+id/s2c"
+        android:layout_width="133dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Credits"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s2s"
+        app:layout_constraintTop_toBottomOf="@+id/s1c" />
+
+    <Button
+        android:id="@+id/calcgpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Calculate CGPA"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/s8s"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintStart_toStartOf="@+id/s8s"
+        app:layout_constraintTop_toBottomOf="@+id/s8s" />
+
+    <TextView
+        android:id="@+id/finalcgpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/calcgpa"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/calcgpa"
+        app:layout_constraintTop_toBottomOf="@+id/calcgpa"
+        app:layout_constraintVertical_bias="0.048" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
